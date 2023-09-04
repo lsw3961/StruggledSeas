@@ -1,14 +1,13 @@
 import logo from './logo.svg';
+import './Components/Topbar'
 import './App.css';
+import Topbar from './Components/Topbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          A Million Studios First ever website
-        </p>
+      <header>
+        <Topbar />
       </header>
     </div>
   );

@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          A Million Studios First ever website
         </a>
       </header>
     </div>

@@ -1,3 +1,13 @@
+
+
+/* App.css */
 .App {
+  background-image: url("../public/background.png"); /* Replace with your image file name */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
+  /* Add any other styling you want for the background */
 }
+
+/* Add any other styles for your components as needed */

@@ -3,24 +3,24 @@ import { games } from "../data";
 
 export default function MissionStatement() {
     return (
-        <div className="flex flex-col items-center">
+        <div id='Games' className="flex flex-col items-center p-10">
+
             {games.map((game) => (
                 <div
                     className="relative bg-white bg-opacity-80 rounded-lg shadow-lg w-4/5 p-10"
                     key={game.id} // Add a unique key to each game element
                 >
-                    <div className="p-6 flex justify-center">
-                        <div className="relative">
+                    <h2 className="text-black text-4xl font-lora font-bold">Our Games</h2>
+                    <h2 className="text-black text-3xl font-lora font-bold">{game.name}</h2>
+                        <div className="flex justify-center">
                             <img
                                 src={game.image}
                                 alt={`Mission`}
-                                className="rounded-3xl object-cover"
+                                className="rounded-3xl object-cover w-1/3 h-2/3 p-3"
                             />
-                            <div className="bg-black bg-opacity-80 rounded-3xl absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-                                <p className="text-white text-xl ">{game.description}</p>
-                            </div>
                         </div>
-                    </div>
+                    <p className="text-black text-xl font-lora ">{game.description}</p>
+
                 </div>
             ))}
         </div>

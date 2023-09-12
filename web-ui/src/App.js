@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       <header>
         <Topbar />
-        <div className='p-9'></div>
         <MissionStatement />
         <About />
         <Games />

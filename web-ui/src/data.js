@@ -1,14 +1,14 @@
 export const people = [
     {
         name: "Logan White",
-        role: "Co-Founder",
+        role: "Co-Founder/Programmer",
         link: "https://www.linkedin.com/in/logan-white-/",
         image: "./loganImage.jpg",
         bio: "Logan is a gameplay engineer who has been programming since he was 15 years old, and since then he has gotten a lot better. Since starting this journey Logan has made a ½ dozen games across personal, academic, and professional projects. He is absolutely thrilled to be apart of the A Million Studios team and can’t wait to show the world what the team has been working on."
     },
     {
         name: "Andrew Bradbury",
-        role: "Co-Founder",
+        role: "Co-Founder/Programmer",
         link: "http://www.linkedin.com/in/andrbrad",
         image: "./andrew.png",
         bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis soluta, vel aut reiciendis hic reprehenderit incidunt corporis pariatur porro? A molestias itaque dolorem perspiciatis ab obcaecati beatae impedit, voluptatum, voluptate, libero reprehenderit eos laboriosam dolore quae delectus eius minus repudiandae modi ea. Modi fugit minima itaque iure accusamus commodi cum?"
@@ -62,7 +62,7 @@ export const games = [
     {
         name: "Phasebound: A Hero's Journey",
         image: "./Phasebound.png",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolorum quisquam incidunt error repudiandae. Expedita voluptatem atque placeat cum officia cupiditate vel modi, distinctio odit nostrum quam. Voluptatum labore hic quo laudantium voluptate maxime, voluptates amet unde quos sit cum ab nihil dolore nam architecto nisi minima, modi mollitia ut?",
+        description: "You step into the shoes of Nick Noble, an bright-eyed teenager who inadvertently crosses paths with one of the ancient gods. Bestowed with newfound powers, Nick finds himself thrust into a monumental struggle for the very soul of the world. In a timeless tale of heroism, justice, and the enduring spirit of humanity, you must guide Nick on a quest to restore balance and ensure the triumph of good over the forces of darkness.",
         link: "www.google.com"
     }
 ]

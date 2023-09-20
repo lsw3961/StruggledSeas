@@ -3,7 +3,7 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-
+import { BiWater } from 'react-icons/bi';
 export default function Topbar() {
 
   function scrollToElementById(id) {
@@ -20,7 +20,8 @@ export default function Topbar() {
   return (
     <nav class="flex items-center justify-between font-lora flex-wrap bg-blue-500 p-6">
       <div class="flex items-center flex-shrink-0 text-white mr-6">
-        <span class="font-bold text-black text-xl tracking-tight">A Milion Studios</span>
+        <div class="font-bold text-black text-xl tracking-tight" ><BiWater /></div>
+        <span class="font-bold text-black text-xl tracking-tight">Struggled Seas</span>
       </div>
       <div class="block lg:hidden">
         <button class="flex items-center px-3 py-2 border rounded text-white border-black hover:text-black hover:border-white">

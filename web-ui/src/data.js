@@ -11,7 +11,7 @@ export const people = [
         role: "Co-Founder/Programmer",
         link: "http://www.linkedin.com/in/andrbrad",
         image: "./andrew.png",
-        bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis soluta, vel aut reiciendis hic reprehenderit incidunt corporis pariatur porro? A molestias itaque dolorem perspiciatis ab obcaecati beatae impedit, voluptatum, voluptate, libero reprehenderit eos laboriosam dolore quae delectus eius minus repudiandae modi ea. Modi fugit minima itaque iure accusamus commodi cum?"
+        bio: "Andrew is the genius behind most of the incredible physics that you see in our games. He is a graduate from Rochester Institute of Technology and has multiple titles to his name. In his personal time Andrew is a big fan of staying fit and working out as well Dugeons and Dragons. He is very excited to be a part of this team and so excited to show the world his latest progress."
     },
     {
         name: "Matt Cioni",
@@ -24,7 +24,7 @@ export const people = [
         name: "Sean Smolen",
         role: "World Artist",
         link: "https://www.linkedin.com/in/sean-s-33b30312b/",
-        image: "https://placehold.co/160x240",
+        image: "./Sean.jpg",
         bio: "Sean is an Environment Artists who graduated from Purdue in 2021. After meeting the team at GDC 2023 he and the team worked on a game jam and from there on has been dedicated to creating a beautiful stylized world with an enthralling story. Drawing most of his inspiration from early 2000s PS2 games he is committed to bringing back that spark that seems to have disappeared from modern games." 
     },
     {

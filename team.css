@@ -1,0 +1,118 @@
+.team-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px 20px;
+    background-color: #000368;
+}
+
+#teamTitle {
+    margin-bottom: 10vh;
+}
+
+#team {
+    padding-bottom: 100px;
+}
+
+.team-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.top-row {
+    margin-bottom: 30px;
+}
+
+.team-member {
+    background: rgba(0, 191, 255, 0.429);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    width: 200%;
+    max-width: 250px;
+    backdrop-filter: blur(10px);
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    margin-top: 10px;
+}
+
+.team-member h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #cdcdcd;
+    padding-top: 10px;
+}
+
+.linkedin-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.linkedin-button:hover {
+    transform: scale(1.2);
+    color: #14b6d6;
+}
+
+.linkedin-icon {
+    color: white;
+    font-size: 28px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .team-row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .team-member {
+        flex: 1 1 30%;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .team-row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .team-member {
+        flex: 1 1 45%;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .team-row {
+        flex-direction: column;
+    }
+    .team-member {
+        flex: 1 1 100%;
+        margin: 10px 0;
+    }
+}

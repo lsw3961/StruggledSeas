@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struggled Seas Studios</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="mission.css">
+    <link rel="stylesheet" href="games.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="team.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images\logo_words_black_outlined.png" alt="Struggled Seas Studios Logo" class="nav-logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#games">GAMES</a></li>
+            <li><a href="#team">TEAM</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Pixelated moving background -->
+    <section class="backgroundSec"></section>
+
+    <!-- Main Content Sections -->
+    
+    <!-- Home -->
+        <section id="home" class="home-section">
+            <!-- <h2 class="home-phrase top-phrase">Charting New Worlds</h2> -->
+
+            <div class="wave-container">
+                
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(128, 255, 251, 0.7)" />
+                        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255, 159, 159, 0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(0, 50, 151, 0.526)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(0, 0, 78, 0.695)" />
+                    </g>
+                </svg>
+
+                <img src="images\logo_words_outlined_withflag.png" alt="Struggled Seas Studios Logo" class="home-logo">
+
+                <svg class="waves-bottom" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(22, 101, 130, 0.697)"/>
+                        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0, 83, 151, 0.5)" />
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255, 159, 159, 0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(0, 0, 78, 0.695)" />
+                    </g>
+                </svg>
+            </div>
+
+            <!-- <h2 class="home-phrase bottom-phrase">Life is better with a little adventure</h2> -->
+        </section>
+
+    <!-- About -->
+    <section id="about" class="content-section">
+        <div class="about-overlay">
+            <h2 class="about-title">About Us</h2>
+            <p class="about-text">
+                We are 'Struggled Seas Studios,' a gathering of imaginative and driven developers united to narrate extraordinary tales and venture into imaginative realms. Our team continuously pushes the limits of what can be achieved, persistently striving to pioneer and delve into captivating aspects of the game development arena.
+            </p>
+    
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="https://www.linkedin.com/company/97199100/admin/dashboard/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/struggledseas/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/@struggledseas" target="_blank" class="social-icon"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UC9-wKbw1tC_OxsGhHTyjGLg" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@struggledseas" target="_blank" class="social-icon"> <i class="fab fa-tiktok"></i>
+                </a>
+                
+            </div>
+        </div>
+        <img src="images/background.png" alt="About Image" class="about-image">
+    </section>    
+
+    <!-- Games -->
+    <section id="games" class="games-section">
+        <div class="game-card">
+            <h3 class="game-title">Phasebound</h3>
+            <p class="game-description">
+                You step into the shoes of Nick Noble, a bright-eyed teenager who inadvertently 
+                crosses paths with one of the ancient gods. Bestowed with newfound powers, 
+                Nick finds himself thrust into a monumental struggle for the very soul of the world. 
+                In a timeless tale of heroism, justice, and the enduring spirit of humanity, 
+                you must guide Nick on a quest to restore balance and ensure the triumph of 
+                good over the forces of darkness.
+            </p>
+            <!--
+            <a href="https://store.steampowered.com/" target="_blank" class="steam-button">
+                Play on Steam
+            </a>
+            -->
+        </div>
+    </section>    
+   
+
+    <!-- Team -->
+    <section id="team" class="content-section">
+        <h2 id="teamTitle">Meet The Team</h2>
+        <div class="team-row top-row">
+
+            <!-- Logan -->
+            <div class="team-member">
+                <h3>Logan White</h3>
+                <img src="images\team\loganImage.jpg" alt="Team Member">
+                <h3>Co-Founder</h3>
+                <h3>Programmer</h3>
+                <p>Logan is a gameplay engineer who has been programming since he was 15 years old, and since then he has gotten a lot better. Since starting this journey Logan has made a ½ dozen games across personal, academic, and professional projects. He is absolutely thrilled to be apart of the Struggled Seas team and can’t wait to show the world what the team has been working on.</p>
+                <a href="https://www.linkedin.com/in/logan-white-/" target="_blank" class="linkedin-button">
+                    <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                        <path fill="white" d="M22.23 0H1.77C.79 0 0 .77 0 1.71v20.58C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.71V1.71C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9.03h3.56v11.42zM5.34 7.56a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zm15.11 12.89h-3.56v-5.55c0-1.33-.02-3.05-1.86-3.05-1.86 0-2.15 1.46-2.15 2.96v5.64H9.32V9.03h3.41v1.56h.05c.48-.91 1.64-1.86 3.38-1.86 3.62 0 4.29 2.38 4.29 5.48v6.24z"/>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Andrew -->
+            <div class="team-member">
+                <h3>Andrew Bradbury</h3>
+                <img src="images\team\andrew.png" alt="Team Member">
+                <h3>Co-Founder</h3>
+                <h3>Programmer</h3>
+                <p>Andrew is the genius behind most of the incredible physics that you see in our games. He is a graduate from Rochester Institute of Technology and has multiple titles to his name. In his personal time Andrew is a big fan of staying fit and working out as well Dugeons and Dragons. He is very excited to be a part of this team and so excited to show the world his latest progress.</p>
+                <a href="https://www.linkedin.com/in/andrbrad/" target="_blank" class="linkedin-button">
+                    <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                        <path fill="white" d="M22.23 0H1.77C.79 0 0 .77 0 1.71v20.58C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.71V1.71C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9.03h3.56v11.42zM5.34 7.56a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zm15.11 12.89h-3.56v-5.55c0-1.33-.02-3.05-1.86-3.05-1.86 0-2.15 1.46-2.15 2.96v5.64H9.32V9.03h3.41v1.56h.05c.48-.91 1.64-1.86 3.38-1.86 3.62 0 4.29 2.38 4.29 5.48v6.24z"/>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Matt -->
+            <div class="team-member">
+                <h3>Matt Cioni</h3>
+                <img src="images\team\matt.jpg" alt="Team Member">
+                <h3>Programmer and Sound Engineer</h3>
+                <p>Matt is a gameplay engineer and the sound engineer for Struggled Seas Studios. He is currently a student at Rochester Institute of Technology, having participated in multiple game projects during his academic career, including a project with the current team. Matt loves balancing the musical and technical aspects in the projects he is a part of. He is very excited to be working with this team again and can't wait to show the world what Struggled Seas can create.</p>
+                <a href="https://www.linkedin.com/in/matthew-cioni/" target="_blank" class="linkedin-button">
+                    <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                        <path fill="white" d="M22.23 0H1.77C.79 0 0 .77 0 1.71v20.58C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.71V1.71C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9.03h3.56v11.42zM5.34 7.56a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zm15.11 12.89h-3.56v-5.55c0-1.33-.02-3.05-1.86-3.05-1.86 0-2.15 1.46-2.15 2.96v5.64H9.32V9.03h3.41v1.56h.05c.48-.91 1.64-1.86 3.38-1.86 3.62 0 4.29 2.38 4.29 5.48v6.24z"/>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Sean -->
+            <div class="team-member">
+                <h3>Sean Smolen</h3>
+                <img src="images\team\Sean.jpg" alt="Team Member">
+                <h3>World Artist</h3>
+                <p>Sean is an Environment Artists who graduated from Purdue in 2021. After meeting the team at GDC 2023 he and the team worked on a game jam and from there on has been dedicated to creating a beautiful stylized world with an enthralling story. Drawing most of his inspiration from early 2000s PS2 games he is committed to bringing back that spark that seems to have disappeared from modern games.</p>
+                <a href="https://www.linkedin.com/in/sean-s-33b30312b/" target="_blank" class="linkedin-button">
+                    <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                        <path fill="white" d="M22.23 0H1.77C.79 0 0 .77 0 1.71v20.58C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.71V1.71C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9.03h3.56v11.42zM5.34 7.56a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zm15.11 12.89h-3.56v-5.55c0-1.33-.02-3.05-1.86-3.05-1.86 0-2.15 1.46-2.15 2.96v5.64H9.32V9.03h3.41v1.56h.05c.48-.91 1.64-1.86 3.38-1.86 3.62 0 4.29 2.38 4.29 5.48v6.24z"/>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+        
+        <div class="team-row bottom-row">
+
+            <!-- Jess -->
+            <div class="team-member">
+                <h3>Jessica Southworth</h3>
+                <img src="images\team\jess.png" alt="Team Member">
+                <h3>Character and Visual Effects Artist</h3>
+                <p>Jess is a 3D artist with a love for visual story telling and a focus on character creation. While she primarily works with the team on characters and concept art, she also brings some magic into games through visual effects and stylized shaders. When she's not at the computer or sketchbook, Jess enjoys playing volleyball and card games with family and friends.</p>
+                <a href="https://www.linkedin.com/in/jessica-southworth-112985223/" target="_blank" class="linkedin-button">
+                    <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                        <path fill="white" d="M22.23 0H1.77C.79 0 0 .77 0 1.71v20.58C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.71V1.71C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9.03h3.56v11.42zM5.34 7.56a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zm15.11 12.89h-3.56v-5.55c0-1.33-.02-3.05-1.86-3.05-1.86 0-2.15 1.46-2.15 2.96v5.64H9.32V9.03h3.41v1.56h.05c.48-.91 1.64-1.86 3.38-1.86 3.62 0 4.29 2.38 4.29 5.48v6.24z"/>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Lauren -->
+            <div class="team-member">
+                <h3>Lauren Paige</h3>
+                <img src="images\team\Lauren.jpg" alt="Team Member">
+                <h3>Chief Producer</h3>
+                <p>Lauren is a 23 year-old full-time Dev Support & QA Tester with Naughty Dog, currently living in Boston, MA. She is the producer of the group, bringing her knowledge of the industry to help organize the team to its maximum potential. Lauren loves being able to make a project fun and efficient all while making sure everyone feels heard at every step of the way. Besides developing games, Lauren is a dog mom to a three year-old corgi named Sammy that is both the bane of her existence and her loving cuddle buddy.</p>
+                <a href="https://www.linkedin.com/in/laurenevelynpaige/" target="_blank" class="linkedin-button">
+                    <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                        <path fill="white" d="M22.23 0H1.77C.79 0 0 .77 0 1.71v20.58C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.71V1.71C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9.03h3.56v11.42zM5.34 7.56a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zm15.11 12.89h-3.56v-5.55c0-1.33-.02-3.05-1.86-3.05-1.86 0-2.15 1.46-2.15 2.96v5.64H9.32V9.03h3.41v1.56h.05c.48-.91 1.64-1.86 3.38-1.86 3.62 0 4.29 2.38 4.29 5.48v6.24z"/>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Kenny -->
+            <div class="team-member">
+                <h3>Kenny Rossi</h3>
+                <img src="images\team\kennyTemp.png" alt="Team Member">
+                <h3>Narrative and Level Designer</h3>
+                <p>Kenny is a Narrative and Level Designer at Struggled Seas Studios. A graduate of Rochester Institute of Technology, he recently published a title through the collaboration between Magic Spell Studios and the Open 3D Foundation, working as part of their team. At Struggled Seas Studios, Kenny is excited to collaborate with the team to craft engaging stories within immersive levels.</p>
+                <a href="https://www.linkedin.com/in/kennethprossi/" target="_blank" class="linkedin-button">
+                    <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                        <path fill="white" d="M22.23 0H1.77C.79 0 0 .77 0 1.71v20.58C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.71V1.71C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9.03h3.56v11.42zM5.34 7.56a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zm15.11 12.89h-3.56v-5.55c0-1.33-.02-3.05-1.86-3.05-1.86 0-2.15 1.46-2.15 2.96v5.64H9.32V9.03h3.41v1.56h.05c.48-.91 1.64-1.86 3.38-1.86 3.62 0 4.29 2.38 4.29 5.48v6.24z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>            
+
+    <script src="app.js"></script>
+</body>
+</html>
